@@ -49,8 +49,7 @@ Bad: "Lead time has a positive correlation with cancellation"
 
 ![Description of your chart](my_chart.png)
 
-*Conversion rates spike sharply in November and December — Q4 is the store's highest-opportunity window and where marketing budgets should be concentrated.
-*
+*Conversion rates spike sharply in November and December — Q4 is the store's highest-opportunity window and where marketing budgets should be concentrated.*
 
 ## Prediction Model
 
