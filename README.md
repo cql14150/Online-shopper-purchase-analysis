@@ -47,13 +47,14 @@ Bad: "Lead time has a positive correlation with cancellation"
 
 <!-- Embed your most compelling chart. Pick the ONE visual that best captures your main finding. -->
 
-![Description of your chart](your_chart_filename.png)
+![Description of your chart](my_chart.png)
 
-*[One sentence caption explaining what this chart shows and why it matters.]*
+*Conversion rates spike sharply in November and December — Q4 is the store's highest-opportunity window and where marketing budgets should be concentrated.*
+*
 
 ## Prediction Model
 
-[2-3 sentences. How well can we predict the outcome? Translate accuracy into real-world terms.]
+A Gaussian Naive Bayes classifier achieved 79.72% overall accuracy. Out of 411 actual buyers in the test set, the model correctly identified 253 and missed 158 — representing roughly $7,900 in unaddressed revenue per cycle at a $50 average order value. A Logistic Regression model tested in the bonus section achieved 87.10% accuracy, suggesting room to improve buyer detection with a more powerful model.
 
 <!--
 Tip: Translate model metrics into business impact.
@@ -64,9 +65,9 @@ enough lead time to proactively reach out and offer flexible rebooking options."
 
 ## Recommendations
 
-1. **[Action]:** [Why this action, based on your data. Estimated impact.]
-2. **[Action]:** [Why this action, based on your data. Estimated impact.]
-3. **[Action]:** [Why this action, based on your data. Estimated impact.]
+1. **Concentrate Q4 marketing spend:** Shift at least 50% of the annual budget to November and December — conversion rates more than double during this window.
+2. **Invest in new visitor acquisition:** [New visitors convert at nearly twice the rate of returning ones yet make up only 14% of traffic — reallocating spend toward paid search or referral programs could significantly increase overall sales.
+3. **Trigger real-time offers for high-PageValue sessions:** PageValues was the single strongest predictor of purchase — flagging high-value sessions and delivering a personalized offer could recover an estimated $3,950+ in missed revenue per cycle.
 
 ## Tools & Techniques
 
